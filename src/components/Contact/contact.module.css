@@ -15,3 +15,15 @@
   height: 25px;
   width: 25px !important;
 }
+
+.phoneNumbers{
+  display: flex;
+  flex-direction: column;
+  right: -135px;
+  position: relative;
+  top: -25px;
+}
+
+.phoneNumbers a:hover {
+  text-decoration: none;
+}

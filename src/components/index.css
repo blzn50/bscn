@@ -1,0 +1,13 @@
+.btn-view {
+  border-color: var(--orange);
+  color: var(--orange);
+  position: absolute;
+  bottom: 20%;
+  left: 40%;
+}
+
+.btn-view:hover {
+  color: #212529;
+  background-color: var(--orange);
+  border-color: var(--orange);
+}

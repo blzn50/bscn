@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+.fancy-about-text {
+  font-family: "Montserrat", sans-serif;
+}
+
+.list-group-item {
+  padding: 0.55em 1.25em;
+}
+
+.list-group-item:first-child,
+.list-group-item:last-child {
+  border-radius: 0;
+}

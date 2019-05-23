@@ -1,12 +1,13 @@
+import { Link } from "gatsby"
 import React, { Component } from "react"
 import {
+  Collapse,
   Nav,
   Navbar,
-  NavItem,
   NavbarBrand,
   NavbarToggler,
+  NavItem,
   NavLink,
-  Collapse,
 } from "reactstrap"
 import headerMod from "./header.module.css"
 
@@ -29,9 +30,9 @@ class Header extends Component {
     return (
       <header
         style={{
-          background: `rebeccapurple`,
-          marginBottom: `1.45rem`,
+          background: `#0054a4`,
           color: "white",
+          height: "5.5em",
         }}
       >
         <div className={headerMod.topInfo}>
@@ -65,9 +66,14 @@ class Header extends Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="text-light" href="#services">
+                <Link className="text-light nav-link" to="services">
                   Services
-                </NavLink>
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link className="text-light nav-link" to="about">
+                  About
+                </Link>
               </NavItem>
               <NavItem>
                 <NavLink className="text-light" href="#contact">

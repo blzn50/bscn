@@ -8,7 +8,9 @@ const Contact = () => (
     <div className="row">
       <div className="col-sm-6 col-md-4">
         <div className={contactMod.info}>
-          <h2>Budhabare Space Cable</h2>
+          <h2>Budhabare Space Cable Network</h2>
+          <strong className="ml-4">☎ Office: </strong><span className={contactMod.phoneNumbers}><a href="tel:023555127">023555127</a>
+            <a href="tel:023555590">023555590</a></span>
         </div>
       </div>
       <div className="col-sm-6 col-md-4">

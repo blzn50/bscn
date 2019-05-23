@@ -5,13 +5,11 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react"
+import { graphql, StaticQuery } from "gatsby"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
-
-import "./layout.css"
+import React from "react"
 import Header from "./Header/header"
-import Contact from "./Contact/contact"
+import "./layout.css"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -30,20 +28,18 @@ const Layout = ({ children }) => (
         <div
           style={{
             margin: `0 auto`,
-            maxWidth: 1100,
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
           }}
         >
           <main>{children}</main>
-          <Contact />
         </div>
         <footer
           className="text-center"
           style={{
             margin: "0 auto",
             padding: "20px",
-            background: "rebeccapurple",
+            background: "#0054a4",
             fontSize: ".8em",
             color: "lightgray",
           }}

@@ -1,0 +1,87 @@
+.service {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 1em;
+}
+
+.tabContent {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.serviceTabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceTabs li {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.serviceTabs li a {
+  border-radius: 50px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border: 1px solid #0054a4;
+  background: white;
+  text-align: center;
+}
+
+.cardHeader {
+  text-transform: uppercase;
+  background: #0054a4;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  font-weight: 600;
+}
+
+.cardBody {
+  flex: 1 1 auto;
+  padding: 1.25em;
+}
+
+.cardBody a {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  background: var(--orange);
+  color: white;
+}
+
+.cardBody a:hover {
+  text-decoration: none;
+  color: var(--orange);
+  background: white;
+  border: 1px solid var(--orange);
+  transition: all 0.3s ease;
+}
+
+.channel {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1;
+  margin-top: 0.2em;
+  margin-bottom: 0.6em;
+}
+
+.channels {
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 1em;
+}
+
+.info {
+  text-transform: uppercase;
+  margin-bottom: 2em;
+}
+
+.info h6 {
+  font-weight: 600;
+}

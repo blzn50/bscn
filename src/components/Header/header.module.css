@@ -16,11 +16,17 @@
 .topInfo2 {
   padding-right: 1em;
   float: right;
+  color: white;
+}
+.topInfo2:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.582);
 }
 
 nav {
   margin: 0 auto;
   padding-top: 2em !important;
+  background: #0054a4 !important;
 }
 
 .brandName {

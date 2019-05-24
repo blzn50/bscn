@@ -34,40 +34,40 @@ class Service extends Component {
           <div>
             <Nav className={ServiceMod.serviceTabs}>
               <li>
-                <a
-                  className={classnames("btn btn-outline-primary", {
-                    active: this.state.activeTab === 1,
+                <button
+                  className={classnames("btn", ServiceMod.tabLink, {
+                    [ServiceMod.active]: this.state.activeTab === 1,
                   })}
                   onClick={() => {
                     this.toggle(1)
                   }}
                 >
                   Cable TV
-                </a>
+                </button>
               </li>
               <li>
-                <a
-                  className={classnames("btn btn-outline-primary", {
-                    active: this.state.activeTab === 2,
+                <button
+                  className={classnames("btn", ServiceMod.tabLink, {
+                    [ServiceMod.active]: this.state.activeTab === 2,
                   })}
                   onClick={() => {
                     this.toggle(2)
                   }}
                 >
                   Fiber Internet
-                </a>
+                </button>
               </li>
               <li>
-                <a
-                  className={classnames("btn btn-outline-primary", {
-                    active: this.state.activeTab === 3,
+                <button
+                  className={classnames("btn", ServiceMod.tabLink, {
+                    [ServiceMod.active]: this.state.activeTab === 3,
                   })}
                   onClick={() => {
                     this.toggle(3)
                   }}
                 >
                   Wireless Internet
-                </a>
+                </button>
               </li>
             </Nav>
             <TabContent
@@ -82,15 +82,15 @@ class Service extends Component {
                       the days of hassling TV antennas and irritable ghost
                       lines. What you have with Digital TV is the future of
                       entertainment and viewing. This experience is what Mero TV
-                      does provide to your gratification and pleasure. We
+                      does to provide for your gratification and pleasure. We
                       provide high quality services at affordable rates and
                       technologically advanced platform for our user to user in
                       a new era of HD viewing.
                     </p>
                     <p>
-                      Since it is a Digital TV, It does not affect the Broadcast
-                      due to any bad weather conditions. Besides it offers you
-                      stunning picture quality. Enjoy the HD Experience with us.
+                      Since it is a Digital TV, broadcast is not affected due to
+                      any bad weather conditions. Besides it offers you stunning
+                      picture quality. Enjoy the HD experience with us!
                     </p>
                     <p>
                       75+ HD & 195+ SD Channels, Program View, On Demand SD
@@ -101,7 +101,12 @@ class Service extends Component {
                     <div className={ServiceMod.card}>
                       <div className={ServiceMod.cardHeader}>Basic HD</div>
                       <div className={ServiceMod.cardBody}>
-                        <div className={ServiceMod.channel}>120 SD + 19 HD</div>
+                        <div className={ServiceMod.channel}>
+                          120 SD + 19 HD
+                          <span className={ServiceMod.channelText}>
+                            Channels
+                          </span>
+                        </div>
                         <div className={ServiceMod.channels}>
                           ESPN, Discovery, CNN, Lifetime, TLC, HGTV, and much
                           more!
@@ -119,7 +124,12 @@ class Service extends Component {
                     <div className={ServiceMod.card}>
                       <div className={ServiceMod.cardHeader}>Gold HD</div>
                       <div className={ServiceMod.cardBody}>
-                        <div className={ServiceMod.channel}>150 SD + 40 HD</div>
+                        <div className={ServiceMod.channel}>
+                          150 SD + 40 HD
+                          <span className={ServiceMod.channelText}>
+                            Channels
+                          </span>
+                        </div>
                         <div className={ServiceMod.channels}>
                           ESPN, Discovery, CNN, Lifetime, TLC, HGTV, and much
                           more!
@@ -137,15 +147,20 @@ class Service extends Component {
                     <div className={ServiceMod.card}>
                       <div className={ServiceMod.cardHeader}>Diamond HD</div>
                       <div className={ServiceMod.cardBody}>
-                        <div className={ServiceMod.channel}>190 SD + 45 HD</div>
+                        <div className={ServiceMod.channel}>
+                          190 SD + 45 HD
+                          <span className={ServiceMod.channelText}>
+                            Channels
+                          </span>
+                        </div>
                         <div className={ServiceMod.channels}>
                           ESPN, Discovery, CNN, Lifetime, TLC, HGTV, and much
                           more!
                         </div>
                         <div className={ServiceMod.info}>
-                          <h6>Monthly: </h6>
-                          <h6>Half Yearly:</h6>
-                          <h6>Yearly</h6>
+                          <h6>Monthly: NPR 111</h6>
+                          <h6>Half Yearly: NPR 222</h6>
+                          <h6>Yearly: NPR 333</h6>
                         </div>
                         <a href="tel:023555590">Call Now &gt;</a>
                       </div>
@@ -156,6 +171,14 @@ class Service extends Component {
               <TabPane tabId={2}>
                 <Row>
                   <Col sm="12">
+                    <h3
+                      className={classnames(
+                        "text-center",
+                        ServiceMod.miniTitle
+                      )}
+                    >
+                      Stream Fast, Faster, Fastest
+                    </h3>
                     <p>
                       We shall be providing high speed internet through Fiber to
                       end users and also service to the client. We have separate
@@ -167,37 +190,80 @@ class Service extends Component {
                       service & secure network.
                     </p>
                   </Col>
-                  <Col sm="6" lg="4">
-                    <Card body>
-                      <CardTitle>Special Title Treatment</CardTitle>
-                      <CardText>
-                        With supporting text below as a natural lead-in to
-                        additional content.
-                      </CardText>
-                      <Button>Go somewhere</Button>
-                    </Card>
+                  <Col sm="6" lg="3">
+                    <div className={ServiceMod.card}>
+                      <div className={ServiceMod.cardBody}>
+                        <div className={ServiceMod.channel}>
+                          10{" "}
+                          <span style={{ fontSize: 30, display: "block" }}>
+                            Mbps
+                          </span>
+                        </div>
+                        <div className={ServiceMod.info}>
+                          <h6>Monthly: NPR 999 *</h6>
+                          <h6>Half Yearly: NPR 1500</h6>
+                          <h6>Yearly: NPR 3000</h6>
+                        </div>
+                        <a href="tel:023555590">Call Now &gt;</a>
+                      </div>
+                    </div>
                   </Col>
-                  <Col sm="6" lg="4">
-                    <Card body>
-                      <CardTitle>Special Title Treatment</CardTitle>
-                      <CardText>
-                        With supporting text below as a natural lead-in to
-                        additional content.
-                      </CardText>
-                      <Button>Go somewhere</Button>
-                    </Card>
+                  <Col sm="6" lg="3">
+                    <div className={ServiceMod.card}>
+                      <div className={ServiceMod.cardBody}>
+                        <div className={ServiceMod.channel}>
+                          15{" "}
+                          <span style={{ fontSize: 30, display: "block" }}>
+                            Mbps
+                          </span>
+                        </div>
+                        <div className={ServiceMod.info}>
+                          <h6>Monthly: NPR 1299 *</h6>
+                          <h6>Half Yearly: NPR 1500</h6>
+                          <h6>Yearly: NPR 3000</h6>
+                        </div>
+                        <a href="tel:023555590">Call Now &gt;</a>
+                      </div>
+                    </div>
                   </Col>
-                  <Col sm="6" lg="4">
-                    <Card body>
-                      <CardTitle>Special Title Treatment</CardTitle>
-                      <CardText>
-                        With supporting text below as a natural lead-in to
-                        additional content.
-                      </CardText>
-                      <Button>Go somewhere</Button>
-                    </Card>
+                  <Col sm="6" lg="3">
+                    <div className={ServiceMod.card}>
+                      <div className={ServiceMod.cardBody}>
+                        <div className={ServiceMod.channel}>
+                          20{" "}
+                          <span style={{ fontSize: 30, display: "block" }}>
+                            Mbps
+                          </span>
+                        </div>
+                        <div className={ServiceMod.info}>
+                          <h6>Monthly: NPR 1499 *</h6>
+                          <h6>Half Yearly: NPR 1500</h6>
+                          <h6>Yearly: NPR 3000</h6>
+                        </div>
+                        <a href="tel:023555590">Call Now &gt;</a>
+                      </div>
+                    </div>
+                  </Col>
+                  <Col sm="6" lg="3">
+                    <div className={ServiceMod.card}>
+                      <div className={ServiceMod.cardBody}>
+                        <div className={ServiceMod.channel}>
+                          30{" "}
+                          <span style={{ fontSize: 30, display: "block" }}>
+                            Mbps
+                          </span>
+                        </div>
+                        <div className={ServiceMod.info}>
+                          <h6>Monthly: NPR 1999 *</h6>
+                          <h6>Half Yearly: NPR 1500</h6>
+                          <h6>Yearly: NPR 3000</h6>
+                        </div>
+                        <a href="tel:023555590">Call Now &gt;</a>
+                      </div>
+                    </div>
                   </Col>
                 </Row>
+                <div className={ServiceMod.noVat}>* Price excluding VAT!</div>
               </TabPane>
               <TabPane tabId={3}>
                 <Row>
@@ -215,24 +281,40 @@ class Service extends Component {
                     </p>
                   </Col>
                   <Col sm="6" lg="4">
-                    <Card body>
-                      <CardTitle>Special Title Treatment</CardTitle>
-                      <CardText>
-                        With supporting text below as a natural lead-in to
-                        additional content.
-                      </CardText>
-                      <Button>Go somewhere</Button>
-                    </Card>
+                    <div className={ServiceMod.card}>
+                      <div className={ServiceMod.cardBody}>
+                        <div className={ServiceMod.channel}>
+                          2{" "}
+                          <span style={{ fontSize: 30, display: "block" }}>
+                            Mbps
+                          </span>
+                        </div>
+                        <div className={ServiceMod.info}>
+                          <h6>Monthly: NPR 1243</h6>
+                          <h6>Half Yearly: NPR 1500</h6>
+                          <h6>Yearly: NPR 3000</h6>
+                        </div>
+                        <a href="tel:023555590">Call Now &gt;</a>
+                      </div>
+                    </div>
                   </Col>
                   <Col sm="6" lg="4">
-                    <Card body>
-                      <CardTitle>Special Title Treatment</CardTitle>
-                      <CardText>
-                        With supporting text below as a natural lead-in to
-                        additional content.
-                      </CardText>
-                      <Button>Go somewhere</Button>
-                    </Card>
+                    <div className={ServiceMod.card}>
+                      <div className={ServiceMod.cardBody}>
+                        <div className={ServiceMod.channel}>
+                          3{" "}
+                          <span style={{ fontSize: 30, display: "block" }}>
+                            Mbps
+                          </span>
+                        </div>
+                        <div className={ServiceMod.info}>
+                          <h6>Monthly: NPR 1865</h6>
+                          <h6>Half Yearly: NPR 1500</h6>
+                          <h6>Yearly: NPR 3000</h6>
+                        </div>
+                        <a href="tel:023555590">Call Now &gt;</a>
+                      </div>
+                    </div>
                   </Col>
                   <Col sm="6" lg="4">
                     <Card body>
@@ -248,11 +330,6 @@ class Service extends Component {
               </TabPane>
             </TabContent>
           </div>
-          {/* <div className="card-deck">
-        <div className="card bg-dark text-white" />
-        <div className="card bg-dark text-white" />
-        <div className="card bg-dark text-white" />
-      </div> */}
         </div>
       </div>
     )

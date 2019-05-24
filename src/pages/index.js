@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 import React from "react"
 import Clients from "../components/Clients/clients"
@@ -26,11 +26,13 @@ const IndexPage = ({ data }) => (
                 className="card-img"
               />
               <div
-                class="card-img-overlay"
+                className="card-img-overlay"
                 style={{ background: "rgba(0,0,0, 0.6)" }}
               >
                 <h5 className="text-center">Cable TV</h5>
-                <button class="btn btn-view">View</button>
+                <Link className="btn btn-view" to="/services">
+                  View
+                </Link>
               </div>
             </div>
           </div>
@@ -41,11 +43,13 @@ const IndexPage = ({ data }) => (
                 className="card-img"
               />
               <div
-                class="card-img-overlay"
+                className="card-img-overlay"
                 style={{ background: "rgba(0,0,0, 0.6)" }}
               >
                 <h5 className="text-center">Fiber Internet</h5>
-                <button class="btn btn-view">View</button>
+                <Link className="btn btn-view" to="/services">
+                  View
+                </Link>
               </div>
             </div>
           </div>
@@ -56,11 +60,13 @@ const IndexPage = ({ data }) => (
                 className="card-img"
               />
               <div
-                class="card-img-overlay"
+                className="card-img-overlay"
                 style={{ background: "rgba(0,0,0, 0.6)" }}
               >
                 <h5 className="text-center">Wireless</h5>
-                <button class="btn btn-view">View</button>
+                <Link className="btn btn-view" to="/services">
+                  View
+                </Link>
               </div>
             </div>
           </div>

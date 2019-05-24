@@ -18,9 +18,32 @@
   cursor: pointer;
   margin-right: 10px;
 }
+.serviceTabs li:hover,
+.serviceTabs li:active {
+  cursor: pointer;
+  margin-right: 10px;
+  color: white;
+}
 
-.serviceTabs li a {
+.serviceTabs li button {
   border-radius: 50px;
+}
+
+.tabLink {
+  color: #a43c00;
+  border-color: #a43c00;
+}
+
+.tabLink:hover,
+.active {
+  color: white !important;
+  background-color: #a43c00;
+}
+
+.miniTitle {
+  color: #1c558b;
+  font-weight: 600;
+  font-size: 38px;
 }
 
 .card {
@@ -31,6 +54,7 @@
   border: 1px solid #0054a4;
   background: white;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .cardHeader {
@@ -64,13 +88,19 @@
 .channel {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 600;
   line-height: 1;
   margin-top: 0.2em;
   margin-bottom: 0.6em;
 }
 
+.channelText {
+  display: block;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
 .channels {
   font-weight: 400;
   font-size: 15px;
@@ -84,4 +114,21 @@
 
 .info h6 {
   font-weight: 600;
+}
+
+.noVat {
+  font-size: 14px;
+  margin-top: 23px;
+  margin-bottom: 23px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .channel {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 0.2em;
+    margin-bottom: 0.6em;
+  }
 }

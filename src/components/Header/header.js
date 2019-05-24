@@ -42,12 +42,12 @@ class Header extends Component {
             </span>{" "}
             023555127/023555590
           </div>
-          <div className={headerMod.topInfo2}>
+          <a href="mailto:bscn2065@gmail.com" className={headerMod.topInfo2}>
             <span role="img" aria-label="email">
               📧
             </span>{" "}
             bscn2065@gmail.com
-          </div>
+          </a>
         </div>
         <Navbar light expand="md">
           <NavbarBrand href="/" className={headerMod.brandName}>
@@ -66,19 +66,19 @@ class Header extends Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <Link className="text-light nav-link" to="services">
+                <Link className="text-light nav-link" to="/services">
                   Services
                 </Link>
               </NavItem>
               <NavItem>
-                <Link className="text-light nav-link" to="about">
+                <Link className="text-light nav-link" to="/about">
                   About
                 </Link>
               </NavItem>
               <NavItem>
-                <NavLink className="text-light" href="#contact">
-                  Contact
-                </NavLink>
+                <Link className="text-light nav-link" to="/support">
+                  Support
+                </Link>
               </NavItem>
             </Nav>
           </Collapse>

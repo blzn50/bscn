@@ -34,8 +34,8 @@ const About = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-md-6">
-            <h2 className="text-center">Our Team</h2>
-            <ul className="list-group">
+            <h2 className="text-center" style={{marginBottom: 10}}>Our Team</h2>
+            <ul className="list-group" style={{marginBottom: 25}}>
               <li className="list-group-item">Dharanidhar Pokhrel</li>
               <li className="list-group-item list-group-item-info">Bhaskhar Bhattarai</li>
               <li className="list-group-item">Mina Bista</li>
@@ -45,7 +45,7 @@ const About = () => {
             </ul>
           </div>
           <div className="col-sm-12 col-md-6">
-            <h2 className="text-center">Technicians</h2>
+            <h2 className="text-center" style={{marginBottom: 10}}>Technicians</h2>
             <ul className="list-group">
               <li className="list-group-item">Ratnamani Poudel (Dhurba)</li>
               <li className="list-group-item list-group-item-info">Hem Koirala</li>

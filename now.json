@@ -1,3 +1,11 @@
 {
-  "name": "Budhabare Cable Network"
+  "version": 2,
+  "name": "Budhabare Cable Network",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "public" }
+    }
+  ]
 }

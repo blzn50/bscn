@@ -4,7 +4,7 @@ import { faFacebookF } from "@fortawesome/free-brands-svg-icons"
 import contactMod from "./contact.module.css"
 
 const Contact = () => (
-  <div id="contact">
+  <div id="contact mt-5">
     <div className="row">
       <div className="col-sm-6 col-md-4">
         <div className={contactMod.info}>

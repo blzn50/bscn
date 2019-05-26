@@ -1,15 +1,7 @@
-import { Link } from "gatsby"
-import React, { Component } from "react"
-import {
-  Collapse,
-  Nav,
-  Navbar,
-  NavbarBrand,
-  NavbarToggler,
-  NavItem,
-  NavLink,
-} from "reactstrap"
-import headerMod from "./header.module.css"
+import { Link } from "gatsby";
+import React, { Component } from "react";
+import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from "reactstrap";
+import headerMod from "./header.module.css";
 
 class Header extends Component {
   constructor() {

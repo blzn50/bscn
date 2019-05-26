@@ -1,7 +1,7 @@
-import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faFacebookF } from "@fortawesome/free-brands-svg-icons"
-import contactMod from "./contact.module.css"
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
+import contactMod from "./contact.module.css";
 
 const Contact = () => (
   <div id="contact mt-5">

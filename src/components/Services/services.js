@@ -316,7 +316,7 @@ class Service extends Component {
                       </div>
                     </div>
                   </Col>
-                  <Col sm="6" lg="4">
+                  {/* <Col sm="6" lg="4">
                     <Card body>
                       <CardTitle>Special Title Treatment</CardTitle>
                       <CardText>
@@ -325,7 +325,7 @@ class Service extends Component {
                       </CardText>
                       <Button>Go somewhere</Button>
                     </Card>
-                  </Col>
+                  </Col> */}
                 </Row>
               </TabPane>
             </TabContent>

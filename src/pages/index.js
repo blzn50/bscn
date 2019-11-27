@@ -11,7 +11,7 @@ import SEO from "../components/seo"
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" keywords={[`cable network`, `internet`, `budhabare`]} />
-    <div>
+    <div style={{ margin: "1em 0" }}>
       <h1 className="text-center">Services</h1>
       <h4 className="text-center mb-5" style={{ letterSpacing: -1 }}>
         Get the <strong style={{ textTransform: "uppercase" }}>best</strong>{" "}

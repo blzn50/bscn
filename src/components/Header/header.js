@@ -1,7 +1,15 @@
-import { Link } from "gatsby";
-import React, { Component } from "react";
-import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from "reactstrap";
-import headerMod from "./header.module.css";
+import { Link } from "gatsby"
+import React, { Component } from "react"
+import {
+  Collapse,
+  Nav,
+  Navbar,
+  NavbarBrand,
+  NavbarToggler,
+  NavItem,
+  NavLink,
+} from "reactstrap"
+import headerMod from "./header.module.css"
 
 class Header extends Component {
   constructor() {
@@ -25,21 +33,24 @@ class Header extends Component {
           background: `#0054a4`,
           color: "white",
           height: "5.5em",
+          marginBottom: "1em",
         }}
       >
-        <div className={headerMod.topInfo}>
-          <div className={headerMod.topInfo1}>
-            <span role="img" aria-label="phone">
-              📞
-            </span>{" "}
-            023555127/023555590
+        <div>
+          <div className={headerMod.topInfo}>
+            <div className={headerMod.topInfo1}>
+              <span role="img" aria-label="phone">
+                📞
+              </span>{" "}
+              023555127/023555590
+            </div>
+            <a href="mailto:bscn2065@gmail.com" className={headerMod.topInfo2}>
+              <span role="img" aria-label="email">
+                📧
+              </span>{" "}
+              bscn2065@gmail.com
+            </a>
           </div>
-          <a href="mailto:bscn2065@gmail.com" className={headerMod.topInfo2}>
-            <span role="img" aria-label="email">
-              📧
-            </span>{" "}
-            bscn2065@gmail.com
-          </a>
         </div>
         <Navbar light expand="md">
           <NavbarBrand href="/" className={headerMod.brandName}>

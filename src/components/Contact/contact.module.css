@@ -16,7 +16,7 @@
   width: 25px !important;
 }
 
-.phoneNumbers{
+.phoneNumbers {
   display: flex;
   flex-direction: column;
   right: -135px;
@@ -26,4 +26,8 @@
 
 .phoneNumbers a:hover {
   text-decoration: none;
+}
+
+.social {
+  margin-top: 1em;
 }

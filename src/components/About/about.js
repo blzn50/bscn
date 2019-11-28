@@ -1,5 +1,5 @@
-import React from "react";
-import './about.css';
+import React from "react"
+import "./about.css"
 
 const About = () => {
   return (
@@ -34,29 +34,81 @@ const About = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-md-6">
-            <h2 className="text-center" style={{marginBottom: 10}}>Our Team</h2>
-            <ul className="list-group" style={{marginBottom: 25}}>
-              <li className="list-group-item">Dharanidhar Pokhrel</li>
-              <li className="list-group-item list-group-item-info">Bhaskhar Bhattarai</li>
+            <h2 className="text-center" style={{ marginBottom: 10 }}>
+              Our Team
+            </h2>
+            <ul className="list-group" style={{ marginBottom: 25 }}>
+              <li className="list-group-item">Manjil Pathak</li>
+              <li className="list-group-item list-group-item-info">
+                Tanka Pathak
+              </li>
+              <li className="list-group-item">Sunil Bhattarai</li>
+              <li className="list-group-item list-group-item-info">
+                Dharanidhar Pokhrel
+              </li>
               <li className="list-group-item">Mina Bista</li>
-              <li className="list-group-item list-group-item-info">Hemanta Nepal</li>
-              <li className="list-group-item">Neeta Khatiwada</li>
-              <li className="list-group-item list-group-item-info">Bhima Bhurtel</li>
+              <li className="list-group-item list-group-item-info">
+                Hemanta Nepal
+              </li>
+              <li className="list-group-item">Kalpana Khatiwada</li>
+              <li className="list-group-item list-group-item-info">
+                Bhima Bhurtel
+              </li>
             </ul>
           </div>
           <div className="col-sm-12 col-md-6">
-            <h2 className="text-center" style={{marginBottom: 10}}>Technicians</h2>
+            <h2 className="text-center" style={{ marginBottom: 10 }}>
+              Technicians
+            </h2>
             <ul className="list-group">
-              <li className="list-group-item">Ratnamani Poudel (Dhurba)</li>
-              <li className="list-group-item list-group-item-info">Hem Koirala</li>
-              <li className="list-group-item">Ashish Khatiwada</li>
-              <li className="list-group-item list-group-item-info">Biswash Giri</li>
-              <li className="list-group-item">Suman Bista</li>
-              <li className="list-group-item list-group-item-info">Balkrishna Pokhrel</li>
-              <li className="list-group-item">Bhupal Bhattarai</li>
-              <li className="list-group-item list-group-item-info">Tibendra Dhungel</li>
-              <li className="list-group-item">Milan Ghimire</li>
-              <li className="list-group-item list-group-item-info">Suman Aryal</li>
+              <li className="list-group-item">
+                Ratnamani Poudel (Dhurba){" "}
+                <a className="techNo" href="tel:9802655129">
+                  9802655129
+                </a>
+              </li>
+              <li className="list-group-item list-group-item-info">
+                Hem Koirala{" "}
+                <a className="techNo" href="tel:9802655128">
+                  9802655128
+                </a>
+              </li>
+              <li className="list-group-item">
+                Ashish Khatiwada{" "}
+                <a className="techNo" href="tel:9802655130">
+                  9802655130
+                </a>
+              </li>
+              <li className="list-group-item list-group-item-info">
+                Biswash Giri{" "}
+                <a className="techNo" href="tel:9802655126">
+                  9802655126
+                </a>
+              </li>
+              <li className="list-group-item">
+                Suman Bista{" "}
+                <a className="techNo" href="tel:982655125">
+                  982655125
+                </a>
+              </li>
+              <li className="list-group-item list-group-item-info">
+                Balkrishna Pokhrel{" "}
+                <a className="techNo" href="9802655131">
+                  9802655131
+                </a>
+              </li>
+              <li className="list-group-item">
+                Milan Ghimire{" "}
+                <a className="techNo" href="tel:9801416025">
+                  9801416025
+                </a>
+              </li>
+              <li className="list-group-item list-group-item-info">
+                Tibendra Dhungel{" "}
+                <a className="techNo" href="tel:9801416024">
+                  9801416024
+                </a>
+              </li>
             </ul>
           </div>
         </div>

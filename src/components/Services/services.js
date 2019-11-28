@@ -97,12 +97,12 @@ class Service extends Component {
                       Channels, HD Channels, Features MOST VALUABLE PACKAGE!
                     </p>
                   </Col>
-                  <Col sm="6" lg="4">
+                  <Col sm="6" lg="3">
                     <div className={ServiceMod.card}>
                       <div className={ServiceMod.cardHeader}>Basic HD</div>
                       <div className={ServiceMod.cardBody}>
                         <div className={ServiceMod.channel}>
-                          120 SD + 19 HD
+                          150 SD + 22 HD
                           <span className={ServiceMod.channelText}>
                             Channels
                           </span>
@@ -114,18 +114,18 @@ class Service extends Component {
                         <div className={ServiceMod.info}>
                           <h6>Monthly: NPR 250</h6>
                           <h6>Half Yearly: NPR 1500</h6>
-                          <h6>Yearly: NPR 3000</h6>
+                          <h6>Yearly: NPR 2500</h6>
                         </div>
                         <a href="tel:023555590">Call Now &gt;</a>
                       </div>
                     </div>
                   </Col>
-                  <Col sm="6" lg="4">
+                  <Col sm="6" lg="3">
                     <div className={ServiceMod.card}>
                       <div className={ServiceMod.cardHeader}>Gold HD</div>
                       <div className={ServiceMod.cardBody}>
                         <div className={ServiceMod.channel}>
-                          150 SD + 40 HD
+                          180 SD + 57 HD
                           <span className={ServiceMod.channelText}>
                             Channels
                           </span>
@@ -136,19 +136,19 @@ class Service extends Component {
                         </div>
                         <div className={ServiceMod.info}>
                           <h6>Monthly: NPR 300</h6>
-                          <h6>Half Yearly: NPR 1800</h6>
-                          <h6>Yearly: NPR 3600</h6>
+                          <h6>Half Yearly: NPR 1600</h6>
+                          <h6>Yearly: NPR 3000</h6>
                         </div>
                         <a href="tel:023555590">Call Now &gt;</a>
                       </div>
                     </div>
                   </Col>
-                  <Col sm="6" lg="4">
+                  <Col sm="6" lg="3">
                     <div className={ServiceMod.card}>
                       <div className={ServiceMod.cardHeader}>Diamond HD</div>
                       <div className={ServiceMod.cardBody}>
                         <div className={ServiceMod.channel}>
-                          190 SD + 45 HD
+                          190 SD + 69 HD
                           <span className={ServiceMod.channelText}>
                             Channels
                           </span>
@@ -158,9 +158,32 @@ class Service extends Component {
                           more!
                         </div>
                         <div className={ServiceMod.info}>
-                          <h6>Monthly: NPR 111</h6>
-                          <h6>Half Yearly: NPR 222</h6>
-                          <h6>Yearly: NPR 333</h6>
+                          <h6>Monthly: NPR 350</h6>
+                          <h6>Half Yearly: NPR 1800</h6>
+                          <h6>Yearly: NPR 3500</h6>
+                        </div>
+                        <a href="tel:023555590">Call Now &gt;</a>
+                      </div>
+                    </div>
+                  </Col>
+                  <Col sm="6" lg="3">
+                    <div className={ServiceMod.card}>
+                      <div className={ServiceMod.cardHeader}>Super HD</div>
+                      <div className={ServiceMod.cardBody}>
+                        <div className={ServiceMod.channel}>
+                          200 SD + 80 HD
+                          <span className={ServiceMod.channelText}>
+                            Channels
+                          </span>
+                        </div>
+                        <div className={ServiceMod.channels}>
+                          ESPN, Discovery, CNN, Lifetime, TLC, HGTV, and much
+                          more!
+                        </div>
+                        <div className={ServiceMod.info}>
+                          <h6>Monthly: NPR 450</h6>
+                          <h6>Half Yearly: NPR 2300</h6>
+                          <h6>Yearly: NPR 4500</h6>
                         </div>
                         <a href="tel:023555590">Call Now &gt;</a>
                       </div>
@@ -199,10 +222,13 @@ class Service extends Component {
                             Mbps
                           </span>
                         </div>
-                        <div className={ServiceMod.info}>
-                          <h6>Monthly: NPR 999 *</h6>
-                          <h6>Half Yearly: NPR 1500</h6>
-                          <h6>Yearly: NPR 3000</h6>
+                        <div
+                          style={{ textTransform: "none" }}
+                          className={ServiceMod.info}
+                        >
+                          <h6>Monthly: NPR 1130</h6>
+                          <h6>10 GB data per day</h6>
+                          <h6>1 Mbps fallback speed</h6>
                         </div>
                         <a href="tel:023555590">Call Now &gt;</a>
                       </div>
@@ -217,10 +243,13 @@ class Service extends Component {
                             Mbps
                           </span>
                         </div>
-                        <div className={ServiceMod.info}>
-                          <h6>Monthly: NPR 1299 *</h6>
-                          <h6>Half Yearly: NPR 1500</h6>
-                          <h6>Yearly: NPR 3000</h6>
+                        <div
+                          style={{ textTransform: "none" }}
+                          className={ServiceMod.info}
+                        >
+                          <h6>Monthly: NPR 1470</h6>
+                          <h6>13 GB data per day</h6>
+                          <h6>2 Mbps fallback speed</h6>
                         </div>
                         <a href="tel:023555590">Call Now &gt;</a>
                       </div>
@@ -235,10 +264,13 @@ class Service extends Component {
                             Mbps
                           </span>
                         </div>
-                        <div className={ServiceMod.info}>
-                          <h6>Monthly: NPR 1499 *</h6>
-                          <h6>Half Yearly: NPR 1500</h6>
-                          <h6>Yearly: NPR 3000</h6>
+                        <div
+                          style={{ textTransform: "none" }}
+                          className={ServiceMod.info}
+                        >
+                          <h6>Monthly: NPR 1695</h6>
+                          <h6>20 GB data per day</h6>
+                          <h6>3 Mbps fallback speed</h6>
                         </div>
                         <a href="tel:023555590">Call Now &gt;</a>
                       </div>
@@ -253,17 +285,29 @@ class Service extends Component {
                             Mbps
                           </span>
                         </div>
-                        <div className={ServiceMod.info}>
-                          <h6>Monthly: NPR 1999 *</h6>
-                          <h6>Half Yearly: NPR 1500</h6>
-                          <h6>Yearly: NPR 3000</h6>
+                        <div
+                          style={{ textTransform: "none" }}
+                          className={ServiceMod.info}
+                        >
+                          <h6>Monthly: NPR 2260</h6>
+                          <h6>30 GB data per day</h6>
+                          <h6>5 Mbps fallback speed</h6>
                         </div>
                         <a href="tel:023555590">Call Now &gt;</a>
                       </div>
                     </div>
                   </Col>
                 </Row>
-                <div className={ServiceMod.noVat}>* Price excluding VAT!</div>
+                <div className={ServiceMod.install}>
+                  Installation: NPR 3370 + DROP CABLE (excludes package fee)
+                </div>
+                <div className={ServiceMod.sme}>
+                  <h4>SME &amp; CORPORATE CONNECTIONS</h4>
+                  <p>
+                    24*7 Uptime Guarantee and Best Backup Bandwidth for SME /
+                    Corporate Services!
+                  </p>
+                </div>
               </TabPane>
               <TabPane tabId={3}>
                 <Row>
@@ -289,10 +333,14 @@ class Service extends Component {
                             Mbps
                           </span>
                         </div>
-                        <div className={ServiceMod.info}>
+                        <div
+                          style={{ textTransform: "none" }}
+                          className={ServiceMod.info}
+                        >
                           <h6>Monthly: NPR 1243</h6>
-                          <h6>Half Yearly: NPR 1500</h6>
-                          <h6>Yearly: NPR 3000</h6>
+                          <h6>Airgrid: NPR 1500</h6>
+                          <h6>Router(300Mbps): NPR 2000</h6>
+                          <h6>Wire: NPR 30/m</h6>
                         </div>
                         <a href="tel:023555590">Call Now &gt;</a>
                       </div>
@@ -307,25 +355,41 @@ class Service extends Component {
                             Mbps
                           </span>
                         </div>
-                        <div className={ServiceMod.info}>
+                        <div
+                          style={{ textTransform: "none" }}
+                          className={ServiceMod.info}
+                        >
                           <h6>Monthly: NPR 1865</h6>
-                          <h6>Half Yearly: NPR 1500</h6>
-                          <h6>Yearly: NPR 3000</h6>
+                          <h6>Airgrid: NPR 1500</h6>
+                          <h6>Router(300Mbps): NPR 2000</h6>
+                          <h6>Wire: NPR 30/m</h6>
                         </div>
                         <a href="tel:023555590">Call Now &gt;</a>
                       </div>
                     </div>
                   </Col>
-                  {/* <Col sm="6" lg="4">
-                    <Card body>
-                      <CardTitle>Special Title Treatment</CardTitle>
-                      <CardText>
-                        With supporting text below as a natural lead-in to
-                        additional content.
-                      </CardText>
-                      <Button>Go somewhere</Button>
-                    </Card>
-                  </Col> */}
+                  <Col sm="6" lg="4">
+                    <div className={ServiceMod.card}>
+                      <div className={ServiceMod.cardBody}>
+                        <div className={ServiceMod.channel}>
+                          5{" "}
+                          <span style={{ fontSize: 30, display: "block" }}>
+                            Mbps
+                          </span>
+                        </div>
+                        <div
+                          style={{ textTransform: "none" }}
+                          className={ServiceMod.info}
+                        >
+                          <h6>Monthly: NPR 2825</h6>
+                          <h6>Airgrid: NPR 1500</h6>
+                          <h6>Router(300Mbps): NPR 2000</h6>
+                          <h6>Wire: NPR 30/m</h6>
+                        </div>
+                        <a href="tel:023555590">Call Now &gt;</a>
+                      </div>
+                    </div>
+                  </Col>
                 </Row>
               </TabPane>
             </TabContent>

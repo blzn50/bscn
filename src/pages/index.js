@@ -103,5 +103,17 @@ export const query = graphql`
     image3: file(relativePath: { eq: "wireless.jpg" }) {
       ...serviceImage
     }
+
+    gyanu: file(relativePath: { eq: "gyanu.jpg" }) {
+      ...serviceImage
+    }
+
+    sailesh: file(relativePath: { eq: "sailesh.jpeg" }) {
+      ...serviceImage
+    }
+
+    anns: file(relativePath: { eq: "anns.jpg" }) {
+      ...serviceImage
+    }
   }
 `

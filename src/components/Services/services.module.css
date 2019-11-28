@@ -116,11 +116,19 @@
   font-weight: 600;
 }
 
-.noVat {
-  font-size: 14px;
+.install {
+  /* font-size: 14px; */
   margin-top: 23px;
   margin-bottom: 23px;
   text-align: center;
+}
+.sme {
+  text-align: center;
+  border: 1px solid steelblue;
+  background: #d2d2d2;
+  margin: 1em auto;
+  width: 77%;
+  padding: 1em;
 }
 
 @media screen and (max-width: 768px) {

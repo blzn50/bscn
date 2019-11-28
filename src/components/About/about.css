@@ -2,6 +2,7 @@
 
 .fancy-about-text {
   font-family: "Montserrat", sans-serif;
+  margin: 2em;
 }
 
 .list-group-item {
@@ -11,6 +12,15 @@
 .list-group-item:first-child,
 .list-group-item:last-child {
   border-radius: 0 !important;
+}
+
+.techNo {
+  color: #0054a4;
+}
+
+.techNo:hover {
+  text-decoration: none;
+  color: #0087e0;
 }
 
 @media screen and (max-width: 768px) {

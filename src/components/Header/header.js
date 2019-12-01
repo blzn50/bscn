@@ -79,6 +79,11 @@ class Header extends Component {
                 </Link>
               </NavItem>
               <NavItem>
+                <Link className="text-light nav-link" to="/careers">
+                  Careers
+                </Link>
+              </NavItem>
+              <NavItem>
                 <Link className="text-light nav-link" to="/support">
                   Support
                 </Link>

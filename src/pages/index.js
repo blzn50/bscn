@@ -45,10 +45,21 @@ const IndexPage = ({ data }) => {
     <Layout>
       <SEO title="Home" keywords={[`cable network`, `internet`, `budhabare`]} />
       <div style={{ margin: "1em 0" }}>
-        <h1 className="text-center">Services</h1>
+        <div style={{ textAlign: "center", fontWeight: 600, marginTop: "4em" }}>
+          <h3>Why choose Budhabare Network?</h3>
+          <h1>
+            <strong>13</strong>
+          </h1>
+          <em>Years of Service</em>
+          <h2 style={{ marginTop: "2em" }}>
+            <strong>24/7</strong>
+          </h2>
+          <em>Tech Support</em>
+        </div>
+        <h1 className="text-center mt-5">Services</h1>
         <h4 className="text-center mb-5" style={{ letterSpacing: -1 }}>
           Get the <strong style={{ textTransform: "uppercase" }}>best</strong>{" "}
-          package at reasonable price.
+          package at reasonable price!
         </h4>
         <div className="container">
           <div className="row pl-md-5">

@@ -4,11 +4,14 @@ import React from "react"
 import contactMod from "./contact.module.css"
 
 const Contact = () => (
-  <div id="contact mt-5">
+  <div id="contact" className="mt-5">
     <div className="row">
-      <div className="col-sm-6 col-md-4">
+      <div className="col-sm-6 col-md-6">
         <div className={contactMod.info}>
-          <h2>Budhabare Space Cable Network</h2>
+          <h2>Shree Budhabare Space Cable Network Pvt. Ltd.</h2>
+          <p style={{ fontSize: 15 }}>
+            Buddhashanti-3, Jhapa(Near Police Station)
+          </p>
           <strong className="ml-4">☎ Office: </strong>
           <span className={contactMod.phoneNumbers}>
             <a href="tel:023555127">023555127</a>
@@ -16,14 +19,19 @@ const Contact = () => (
           </span>
         </div>
       </div>
-      <div className="col-sm-6 col-md-4">
+      <div className="col-sm-6 col-md-3">
         <div className={contactMod.opening}>
-          <strong>Opening</strong>
-          <div>9AM-5PM</div>
-          <p style={{ fontSize: 16 }}>Everyday</p>
+          <strong>Office Hours</strong>
+          <div>
+            <div>Sun-Fri: 9AM-4PM</div>
+            <div>Sat: 10AM-2PM</div>
+          </div>
+          <hr style={{ width: "70%" }}></hr>
+          <strong>Tech Support</strong>
+          <p style={{ fontSize: 20 }}>24/7</p>
         </div>
       </div>
-      <div className="col-sm-6 col-md-4">
+      <div className="col-sm-6 col-md-3">
         <div className={contactMod.social}>
           <a
             href="https://www.facebook.com/bscn2065/"

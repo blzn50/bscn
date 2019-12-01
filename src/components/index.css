@@ -11,3 +11,30 @@
   background-color: var(--orange);
   border-color: var(--orange);
 }
+
+.career-heading {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 1.4em;
+  font-size: 33px;
+}
+.career-box {
+  max-width: 600px;
+  margin: 2em auto;
+  font-size: 0.9em;
+}
+
+.career-title {
+  background: lightgray;
+  padding: 0.2em;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .career-heading {
+    font-size: 25px;
+  }
+  .career-box {
+    font-weight: 400;
+  }
+}

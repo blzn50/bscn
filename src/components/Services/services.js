@@ -309,7 +309,7 @@ const Service = () => {
                         className={ServiceMod.info}
                       >
                         <h6>Monthly: NPR 1243</h6>
-                        <h6>Airgrid: NPR 1500</h6>
+                        <h6>Airgrid: NPR 7500</h6>
                         <h6>Router(300Mbps): NPR 2000</h6>
                         <h6>Wire: NPR 30/m</h6>
                       </div>
@@ -331,7 +331,7 @@ const Service = () => {
                         className={ServiceMod.info}
                       >
                         <h6>Monthly: NPR 1865</h6>
-                        <h6>Airgrid: NPR 1500</h6>
+                        <h6>Airgrid: NPR 7500</h6>
                         <h6>Router(300Mbps): NPR 2000</h6>
                         <h6>Wire: NPR 30/m</h6>
                       </div>
@@ -353,7 +353,7 @@ const Service = () => {
                         className={ServiceMod.info}
                       >
                         <h6>Monthly: NPR 2825</h6>
-                        <h6>Airgrid: NPR 1500</h6>
+                        <h6>Airgrid: NPR 7500</h6>
                         <h6>Router(300Mbps): NPR 2000</h6>
                         <h6>Wire: NPR 30/m</h6>
                       </div>

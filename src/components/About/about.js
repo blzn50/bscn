@@ -54,6 +54,7 @@ const About = () => {
               <li className="list-group-item list-group-item-info">
                 Bhima Bhurtel
               </li>
+              <li className="list-group-item">Bhaskar Bhattarai</li>
             </ul>
           </div>
           <div className="col-sm-12 col-md-6">
